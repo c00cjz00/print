@@ -1,21 +1,11 @@
-<html><head>
+<html>
+<head>
 <meta charset="utf-8">
-   <style type="text/css" media="print">
-        @page 
-        {
-            size: auto;   /* auto is the current printer page size */
-            margin: 0mm;  /* this affects the margin in the printer settings */
-        }
 
-        body 
-        {
-            background-color:#FFFFFF; 
-            border: solid 1px black ;
-            margin: 0px;  /* the margin on the content before printing */
-       }
-    </style>
 <style type="text/css">@font-face {  font-family: cwTeXKai;  src: url(/fastqc/cwTeXTrueTypeFonts/kttf.ttf);}.embFont12a { font-family: "cwTeXkai";  font-size: 12px;}.embFont12 { font-size: 12px;}.embFont14a { font-family: "cwTeXkai";  font-size: 14px;}.embFont14 { font-size: 14px;}.embFont16 { font-family: "cwTeXkai";  font-size: 16px;}.embFont18 { font-family: "cwTeXkai";  font-size: 18px;}.embFont20 { font-family: "cwTeXkai";  font-size: 20px;}.table0{ border:0px #000000 solid;}.table1{ border:1px #000000 solid;}.table1 td{ border:1px #000000 solid;}.table2{ border:2px #000000 solid;}.table2 td{ border:1px #000000 solid;}.table3{ border:2px #000000 solid;border-bottom:1px #000000 solid;}.table3 td{ border:1px #000000 solid;}.table4{ border:2px #000000 solid;border-top:1px #000000 solid;}.table4 td{ border:1px #000000 solid;}</style></head>
 <body>
+<button id="printPageButton" onClick="window.print();">Print2</button>
+
 <table class="table1" cellspacing="0" cellpadding="1" ><tbody><tr><td width="550" rowspan="2"><div style="solid;height:30px;text-align:center;line-height:30px;"><span class="embFont14">WHOLE GENOME SEQUENCING DATA QUALITY REPORT</span></td><td width="260"><div style="height:15px;text-align:center;line-height:15px"><span class="embFont12">CODE : NGS005_附件一</span></div></td></tr><tr><td width="200"><div style="height:15px;text-align:center;line-height:15px"><span class="embFont12">Effective Date: Jan 17,2018</span></div></td></tr></tbody></table>
 <table border="0"><tr><td width="810"><div style="height:30px;text-align:center;line-height:30px"><span class="embFont20">全基因體定序原始序列品質報告</span></div></td></tr></teble>
 <table class="table2" cellspacing="0" cellpadding="1"><tbody><tr><td width="810" colspan="3"><div style="height:24px;text-align:left;line-height:24px"><span class="embFont14"><strong>Sequence ID : 180895136</strong></span></div></td></tr>
@@ -49,7 +39,7 @@
 <table class="table0"><tr><td width="810"><div style="height:24px;text-align:center;line-height:24px"><span class="embFont14a">正常為綠色圖示<img width="18" height="18" src="http://140.110.17.14/fastqc/180895136_S1_L001_R2_001_fastqc/Icons/tick.png"> ; 略為異常為橘色圖示<img width="18" height="18" src="http://140.110.17.14/fastqc/180895136_S1_L001_R2_001_fastqc/Icons/warning.png"> ; 嚴重異常為紅色圖示<img width="18" height="18" src="http://140.110.17.14/fastqc/180895136_S1_L001_R2_001_fastqc/Icons/error.png"></span></div></td></tr></table>
 <p>&nbsp;<p>&nbsp;<p>&nbsp;<p>&nbsp;<p><table class="table1" cellspacing="0" cellpadding="1" ><tbody><tr><td width="135" colspan="1"><div style="solid;height:24px;text-align:center;line-height:24px;"><span class="embFont12">版次 : 02.2</span></td><td width="540" colspan="4"><div style="height:24px;text-align:center;line-height:24px"><span class="embFont12a">制定 : 財團法人農業科技研究院</span></div></td><td width="135" colspan="1"><div style="height:24px;text-align:center;line-height:24px"><span class="embFont12">頁數 : 2/2</span></div></td></tr></tbody></table>
 
-    
-    </body>
-    </html>
-    
+</body>
+</html>
+
+
